@@ -1,0 +1,21 @@
+.demo {
+    color: yellowgreen;
+}
+
+/* 1. Dấu cách: tác động vào toàn bộ thẻ bên phải là con của thẻ bên trái */
+div p { /* Chọn tất cả thẻ p là con của thẻ div */
+    color: rgb(0, 109, 252)
+}
+
+.loichuc p { /* Chọn tất cả thẻ p là con của class loichuc */
+    font-size: 30px;
+}
+
+/* 2. Sử dụng dấu lớn hơn: Chọn tất cả thẻ bên phải là con trực tiếp của thẻ bên trái */
+div > p { /* Tác động lên thẻ p là con trực tiếp của thẻ div */
+    color: tomato
+}
+
+block > p {
+    color: #000;
+}
