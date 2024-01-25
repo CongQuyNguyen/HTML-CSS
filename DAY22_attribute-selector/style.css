@@ -1,0 +1,16 @@
+/* 1. [attribute]: Chọn tất cả các thẻ có thuộc tính attribute để css */
+
+/*
+[href] { /* Tác động vào tất cả các item có thuộc tính href
+    color: #ff0000;
+}
+*/
+
+/* 2. [attribute = value]: Chọn tất cả thẻ có thuộc tính attribute và có giá trị chính xác là value đó */
+[target = _blank] {
+    color: yellow;
+}
+
+[target = self] {
+    color: blue;
+}

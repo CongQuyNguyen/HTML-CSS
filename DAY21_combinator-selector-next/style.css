@@ -1,0 +1,22 @@
+/* 1. element + element: Chọn element SÁT ngay sau element bên phải */
+
+h1 + h2 { /* Chọn thẻ h2 SÁT ngay sau thẻ h1 */
+    color: red;
+}
+
+h1 + h3 { /* Chọn thẻ h3 SÁT ngay sau thẻ h1: Nhưng sẽ không xảy ra do không có thẻ h3 nào sát sau h1 */
+    color: red;
+}
+
+h2 + h3 { /* Chọn thẻ h3 SÁT ngay sau thẻ h2 */
+    color: blue;
+}
+
+.demo.demo2 + h3, p { /* Chọn ra tất cả phần tử h3 SÁT ngay sau .demo.demo2 và tất cả các thẻ p (dấu phẩy) */
+    color: yellowgreen;
+}
+
+/* 2. element ~ element: Chọn tất cả các element bên phải đằng sau thẻ element bên phải */
+div ~ ul { /* Chọn tất cả các thẻ ul sau thẻ div */
+    color: tomato;
+}
