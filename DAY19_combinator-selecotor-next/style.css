@@ -1,0 +1,16 @@
+/* 1. element, element: Liệt kê và chọn ra tất cả các phần tử */
+h1,
+h2 {
+  color: #1a8100;
+}
+
+p,
+.demo {
+  color: #0a009b;
+}
+
+
+/* 2. element với class có nhiều tên */
+.demo.demo2 {
+    color: #0cb69f;
+}
