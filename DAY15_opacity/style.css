@@ -1,0 +1,24 @@
+body{
+    background-image: url(./img/background.avif);
+}
+
+h2{
+    opacity: 50%;
+    color: white;
+}
+
+h1{
+    opacity: 50%;
+    color: white;
+}
+
+h3{
+    color: white;
+    opacity: 50%;
+    display: none;
+}
+
+h4{
+    color: white;
+    opacity: 50%;
+}

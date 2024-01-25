@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BÀi 14</title>
+  </head>
+
+  <body>
+    <p>Đường dẫn tương đối</p>
+    <img src="./baby.jpg" alt="Ảnh một cậu bé" />
+    <p>Đường dẫn tương đối</p>
+    <img src="./img/girl.jpg" alt="Ảnh một cô gái" />
+    <p>Đường dẫn tương đối cách 2</p>
+
+    <p>trở về thư mục trên 1 cấp: Dùng dấu <i>../</i></p>
+    <img src="../boy.jpg" alt="Ảnh cậu bé" width="300" />
+
+    <p>Đường dẫn tuyệt đối</p>
+    <img
+      src="/boy.jpg"
+      alt="Ảnh cậu bé nhưng là đường dẫn tuyệt đối"
+      ,
+      width="300"
+    />
+    <hr />
+    <b
+      >Ta có kết luận như sau:
+      <ul>
+        <li>
+          Đường dẫn tuyệt đối: Dùng dấu <i>/</i> và gốc sẽ là ngay bên trong
+          project
+        </li>
+        <li>
+          Đường dẫn tương đối: Dùng
+          <i>./ để di chuyển tới mục kế tiếp hoặc ../ để trở về thư mục trước</i
+          >. Vị trí bắt đầu chính là tại nơi đứng của file index.html
+        </li>
+      </ul>
+    </b>
+  </body>
+</html>

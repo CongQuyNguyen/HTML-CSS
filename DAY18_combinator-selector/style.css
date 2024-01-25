@@ -1,0 +1,16 @@
+/* 1. * sẽ chọn tất cả các element */
+* {
+  color: #06883c;
+  list-style: none;
+}
+
+/* 2. element.class: Dùng element sau đó chấm tới class */
+p.demo {
+  font-size: medium;
+  color: #ffd000;
+}
+
+h2.demo {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+}

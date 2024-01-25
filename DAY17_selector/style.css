@@ -1,0 +1,41 @@
+/* h1{
+    color: blue;
+
+}
+
+#_dvOne{
+    color: red;
+    font-size: 20px;
+
+}
+
+.demo{
+    color: yellow;
+    font-size: larger;
+    font-style: oblique;
+}
+
+.item-ul-1{
+    list-style: none;
+} */
+
+/* 1. Sử dụng * sẽ chọn ra tất cả các element trong file */
+
+/* 
+*{
+    color: tomato !important;
+} 
+*/
+
+/* 2. Sử dụng element.class để chọn tất cả các element có cùng class */
+/* p.demo{
+    color: orangered;
+    font-size: larger;
+} */
+
+/* 3. Dấu phẩy và dấu chấm */
+p, .demo, #title {
+  color: red;
+}
+
+/* 4. Space selector */

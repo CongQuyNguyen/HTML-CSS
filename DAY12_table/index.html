@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài học về thẻ &lt;table&gt;</title>
+  </head>
+  <body>
+    <p>Trong thẻ &lt;table&gt;&lt;/table&gt; bao gồm có 3 thẻ con:</p>
+    <ul>
+      <li>Thẻ &lt;tr&gt;&lt;/tr&gt;: đại hiện cho 1 hàng</li>
+      <li>Thẻ &lt;td&gt;&lt;/td&gt;: đại diện cho 1 ô dữ liệu</li>
+      <li>Thẻ &lt;th&gt;&lt;/th&gt;: định nghĩa một ô tiêu đề</li>
+    </ul>
+    <hr />
+    <table>
+      <tr>
+        <th>Tên sản phẩm</th>
+        <th>Giá sản phẩm</th>
+      </tr>
+      <tr>
+        <td>Áo phông</td>
+        <td>100.00vnđ</td>
+      </tr>
+      <tr>
+        <td>Quần jean</td>
+        <td>200.00vnđ</td>
+      </tr>
+    </table>
+    <hr />
+    <p>
+      Ngoài ra, để thuận tiện cho việc kiểm tra khi dữ liệu bảng quá lớn, ta
+      chia bảng làm 3 phần:
+      <ul>
+        <li>&lt;thead&gt;&lt;/thead&gt;</li>
+        <li>&lt;tbody&gt;&lt;/tbody&gt;</li>
+        <li>&lt;tfoot&gt;&lt;/tfoot&gt;</li>
+      </ul>
+    </p>
+    <table>
+        <thead>
+            <tr>
+                <th>Tên sản phẩm</th>
+                <th>Giá sản phẩm</th>
+              </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Áo phông</td>
+                <td>100.00vnđ</td>
+              </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Quần jean</td>
+                <td>200.00vnđ</td>
+              </tr>
+        </tfoot>
+      </table>
+      <hr>
+      <p>Tiếp theo, ta có thể dùng các cấu trúc phức tạp hơn như <b>colspan</b> hay <b>rowspan</b> để chia bảng.</p>
+      <table>
+        <thead>
+            <th>Tên sản phẩm</th>
+            <th colspan="2">Mô tả</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Áo phông</td>
+                <td>Chất liệu</td>
+                <td>Bạc</td>
+            </tr>
+            <tr>
+                <td>Kích thước</td>
+                <td>M, L, XL</td>
+            </tr>
+            <tr>
+                <td>Quần jean</td>
+                <td colspan="2">Hàng cao cấp giá rẻ</td>
+            </tr>
+        </tbody>
+      </table>
+      <hr>
+      <p><b>Giải bài tập về nhà</b></p>
+      <table>
+        <thead>
+            <tr>
+                <th>Tên sản phẩm</th>
+                <th>Giá sản phẩm</th>
+                <th>Số lượng còn lại</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Áo thun nam</td>
+                <td>100.000vnđ</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Quần jean nữ</td>
+                <td>200.000vnđ</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Giày thể thao</td>
+                <td>300.000vnđ</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Remark</td>
+                <td colspan="2">Chỉ thống kê sản phẩm trong kho</td>
+            </tr>
+        </tbody>
+        
+      </table>
+    </body>
+</html>
