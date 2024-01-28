@@ -1,0 +1,43 @@
+.demo {
+    width: 200px;
+    height: 200px;
+    background-color: hotpink;
+    color: white;
+
+    padding: 10px;
+
+    border: 5px solid tomato;
+    border-radius: 30px;
+
+    margin: 15px;
+    margin: 10px;
+    margin: 10px 20px;
+    margin: 10px 20px 30px;
+    margin: 10px 20px 30px 40px;
+}
+
+.block-1, .block-2, .block-3 {
+    width: 150px;
+    height: 150px;
+    color: white;
+    padding: 10px;
+    border: 5px solid;
+}
+
+.block-1 {
+    background-color: hotpink;
+    border-color: tomato;
+    margin: 0px;
+}
+
+.block-2 {
+    background-color: seagreen;
+    border-color: yellow;
+    margin-left: 180px;
+}
+
+.block-3 {
+    background-color: steelblue;
+    border-color: yellowgreen;
+    margin-left: 360px;
+}

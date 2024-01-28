@@ -1,0 +1,28 @@
+/* Kích thước của element = content + padding + border */
+
+.demo {
+  width: 200px;
+  height: 200px;
+  background-color: hotpink;
+  color: white;
+  padding: 20px;
+
+  /* border: 5px solid tomato; */
+  border-top: 5px solid tomato;
+  border-bottom: 5px solid tomato;
+  border-left: 5px solid tomato;
+  border-right: 5px solid tomato;
+  /* border-radius: 30px; */
+  /* border-top-left-radius: 30px; */
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  /* border-bottom-right-radius: 30px; */
+}
+
+/* Padding: 1 đối số -> cả 4 hướng */
+/* Padding 2 đối số: trên dưới - trái phải */
+/* Padding: 3 đối số: trên - phải trái - dưới */
+/* Padding 4 đối số: trên - phải - dưới - trái (chiều kim đồng hồ) */
+
+
+
