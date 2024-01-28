@@ -4,7 +4,7 @@
   list-style: none;
 }
 
-/* 2. element.class: Dùng element sau đó chấm tới class */
+/* 2. element.class: Chọn ra tất cả các element có class là x */
 p.demo {
   font-size: medium;
   color: #ffd000;

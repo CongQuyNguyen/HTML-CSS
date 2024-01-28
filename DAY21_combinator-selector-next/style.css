@@ -16,7 +16,7 @@ h2 + h3 { /* Chọn thẻ h3 SÁT ngay sau thẻ h2 */
     color: yellowgreen;
 }
 
-/* 2. element ~ element: Chọn tất cả các element bên phải đằng sau thẻ element bên phải */
+/* 2. element ~ element: Chọn tất cả các element bên phải đằng sau thẻ element bên trái */
 div ~ ul { /* Chọn tất cả các thẻ ul sau thẻ div */
     color: tomato;
 }
