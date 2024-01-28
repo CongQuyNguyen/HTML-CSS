@@ -1,0 +1,55 @@
+/* hover sẽ thực hiện các tác động khi ta di chuột vào selector */
+/* #line1:hover {
+    color: blue;
+    font-size: 30px;
+}
+
+.line:hover {
+    color: red;
+} */
+
+/* active sẽ thực hiện những sữa đổi khi chúng ta di chuột và giữ chuột tại selector đó */
+/* #line1:active {
+    color: blue;
+    font-size: 30px;
+}
+
+.line:active {
+    color: red;
+} */
+
+/* link: sẽ lấy ra các liên kết mà người dùng chưa click vào */
+/* .click_me:link {
+    color: chocolate;
+} */
+
+
+/* visited: sẽ lấy ra liên kết mà người dùng đã click vào trước đó */
+/* .click_me:visited {
+    color: darkgreen;
+} */
+
+
+/* empty: chọn ra các thẻ không có nội dung */
+.element:empty {
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+}
+
+/* empty: chọn ra các thẻ không có nội dung */
+.element {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: wheat
+}
+
+/* target: Chuyển đến id của element tương ứng */
+h2:target {
+    color: red;
+}
+
+.click:hover {
+    color: purple;
+}
