@@ -1,0 +1,24 @@
+/* Không quan tâm đến loại thẻ */
+
+/* :first-child: Lấy ra thẻ con đầu tiên */
+p:first-child {
+    color: red;
+    font-size: 20px;
+}
+
+
+/* :last-child: Lấy ra thẻ con cuối cùng */
+p:last-child {
+    color: blue;
+
+    font-size: large;
+}
+
+/* nth-child: thẻ con thứ n */
+/* p:nth-child(2) {
+    color: hotpink;
+} */
+
+p:nth-child(odd) {
+    color: hotpink;
+}

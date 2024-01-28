@@ -1,0 +1,25 @@
+/* Các chức năng cũng tương tự như pseudo child nhưng có phân biệt thể loại thẻ
+Nó không quan tâm có là con hay không */
+
+/* :first-of-type: Chọn ra thẻ nào đó là thẻ đầu tiên */
+p:first-of-type {
+    color: hotpink;
+}
+
+/* Không hoạt động */
+/* p:first-child {
+    color: red;
+} */
+
+
+/* :last-of-type: Chọn ra thẻ nào đó là thẻ cuối cùng */
+
+/* :nth-of-type(): Chọn ra thẻ thứ n là thẻ đầu tiên */
+p:nth-of-type(even) {
+    color: skyblue;
+}
+
+/* :only-child: Chọn nếu đó là phần tử duy nhất */
+p:only-child {
+    color: tomato;
+}

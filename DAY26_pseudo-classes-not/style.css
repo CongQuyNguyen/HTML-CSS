@@ -1,0 +1,27 @@
+/* Tác động đến tất cả các thẻ có class nào đó và loại trừ ra thẻ trong cặp ngoặc nhọn */
+/* .top:not(p) {
+    color: hotpink;
+    background-color: yellow;
+
+} */
+
+/* Ta có thể vận dụng thêm pseudo class */
+/* Các thẻ đầu tiên xuất hiện bất kể loại nào cũng sẽ được loại trừ */
+/* .top:not(:first-of-type) {
+    color: tomato;
+    background-color: slateblue;
+} */
+
+/* Mức độ ưu tiên khi thực hiện CSS selector */
+/* 1. Important */
+/* 2. Inline style (Viết trong thẻ HTML) */
+/* 3. ID (sử dụng dấu #) */
+/* 4. Class (dấu chấm) và pseudo class (dấu :) */
+/* 5. Tên các element */
+/* 6. Dấu * (Chọn cho tất cả) */
+
+* {
+    color: hotpink;
+    background-color: darkslategrey;
+}
+
