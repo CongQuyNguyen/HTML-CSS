@@ -1,0 +1,15 @@
+/* Outline là phần bao quanh bên ngoài một box model */
+/* Outline có thể đè luôn cả margin nếu kích thước của nó lớn hơn margin */
+
+.box-1 {
+    width: 200px;
+    height: 200px;
+    border: 5px solid tomato;
+
+    /* margin = 25 + 8 = 33 */
+    margin: 25px;
+    outline: 25px solid black;
+
+    /* outline-offset: sẽ cách border ra một khoảng */
+    outline-offset: 10px;
+}

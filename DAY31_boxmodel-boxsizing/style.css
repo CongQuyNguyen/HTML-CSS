@@ -1,0 +1,23 @@
+/* Box-sizing có 2 giá trị:
+- border-box: Là kích thước của toàn bộ phần tử (content + padding + border)
+- content-box: chỉ là kích thước của phần content
+=> Ưu tiên dùng border-box do nó có thể tự co dãn phần content mà không là thay đổi kích 
+thước của box model */
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: hotpink;
+    padding: 20px;
+    border: 5px solid tomato;
+    margin-bottom: 20px;
+
+    box-sizing: content-box;
+}
+
+.box2 {
+    width: 250px;
+    height: 250px;
+
+    box-sizing: border-box;
+}
