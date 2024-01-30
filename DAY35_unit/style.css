@@ -1,0 +1,35 @@
+/* Đơn vị tương đối: Thay đổi theo sự biến động về kích thước của trình duyệt */
+/* Đơn vị tuyệt đối: Sẽ không thay đổi về giá trị */
+
+/* Đơn vị %: sẽ tính theo độ lớn của parent */
+/* .box1 {
+    background-color: hotpink;
+    width: 50%;
+}
+
+.box-child {
+    background-color: tomato;
+    width: 50%;
+} */
+
+/* .parent {
+  font-size: 60px;
+}
+
+.line1 {
+  font-size: 40%;
+} */
+
+/* Đơn vị vw và vh: là chiều rộng của khung nhìn và chiều cao của khung nhìn */
+/* Khi đặt thì chiều rộng và chiều cao của cả khối sẽ tự động co dãn theo khung nhìn */
+/* .parent {
+  width: 80vw;
+  height: 50vh;
+  background-color: hotpink;
+}
+
+.child {
+  width: 50vw;
+  height: 50vh;
+  background-color: tomato;
+} */

@@ -1,0 +1,39 @@
+/* Thẻ rem sẽ dựa trên font-size của root (thường là 16px) */
+
+/* .parent {
+    font-size: 20px;
+} */
+
+.child {
+    width: 6rem;
+    height: 2rem;
+    background-color: hotpink;
+    font-size: 2rem;
+
+    border: 0.3rem solid seagreen;
+}
+
+.child:not(:first-child) {
+    margin-top: 0.5rem;
+}
+
+/* Quy đổi px sang rem: Thông thường 1rem = 16px */
+/* Ta nên chuyển đổi sao cho 1rem = 10px */
+/* => Giảm tỉ lệ font-size của thẻ html xuống 62.5% */
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+p {
+    font-size: 2.3rem;
+}
+
+.box {
+    width: 20rem;
+    height: 15rem;
+    background-color: tomato;
+}

@@ -1,0 +1,25 @@
+/* Kích thước sẽ phụ thuộc vào font chữ hiện tại và có kế thừa */
+/* Trong trường hợp chưa có font chữ ở cả element cha hoặc bản phân phần 
+tử thì nó sẽ lấy độ lớn mặc định của root (thường là 16px) sau đó nhân 10 lên */
+
+
+/* Trong trường hợp thẻ cha có font-size: thì element con sẽ nhận font-size này */
+/* Nếu element con overload lại thì sẽ theo element con */
+.parent {
+    font-size: 20px;
+}
+
+/* Trong trường hợp thẻ cha có font-size tương đối: element sẽ lấy giá trị mà font-size của
+parent chiếu tới */
+/* Font-size của cha chiếu theo element root (16px * 2 = 32px * 10px = 320px) */
+.parent {
+    font-size: 2em;
+}
+
+.child {
+  width: 10em;
+  height: 10em;
+  background-color: tomato;
+
+  /* font-size: 10px; */
+}
