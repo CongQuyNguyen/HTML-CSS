@@ -1,0 +1,35 @@
+strong {
+    background-color: hotpink;
+
+    /* Các thuộc tính mà inline không áp dụng được cho trên và dưới */
+    padding: 20px;
+    margin: 20px;
+
+    /* Sở dĩ như vậy là do nó sinh ra để nó cùng trên một hàng và không gây phá vỡ cấu trúc */
+    /* Có thể sửa bằng cách sử dụng inline-block */
+    /* display: inline-block; */
+}
+
+body {
+    background-color: skyblue;
+}
+
+a {
+    text-decoration: none;
+    background-color: hotpink;
+    border: 2px solid seagreen;
+    border-radius: 999px;
+    color: white;
+
+    display: inline-block;
+    padding: 8px 16px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+a:hover {
+    background-color: tomato;
+    border-color: yellowgreen;
+
+}
