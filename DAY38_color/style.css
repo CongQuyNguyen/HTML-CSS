@@ -1,0 +1,24 @@
+/* Cách 1: rgb */
+/* Cách 2: rgba */
+/* Cách 1: mã hex */
+
+/* color có thể kế thừa */
+
+h1 {
+    color: #e7820d; 
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    /* color: tomato; */
+    /* background-color: tomato; */
+    outline: 2px solid tomato;
+    outline-offset: 5px;
+}
+
+.box-child {
+    width: 80px;
+    height: 80px;
+    background-color: seagreen;
+}
