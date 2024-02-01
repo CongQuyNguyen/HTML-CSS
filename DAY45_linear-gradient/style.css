@@ -1,0 +1,33 @@
+.box {
+  height: 100px;
+  margin-bottom: 10px;
+  border-radius: 50px;
+  background: rgb(0, 66, 13);
+  background: linear-gradient(
+    34deg,
+    rgba(0, 66, 13, 1) 0%,
+    rgba(9, 9, 121, 1) 18%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+/* Các hướng chuyển màu */
+/* .box2 {
+  background-image: linear-gradient(to left, red, blue);
+}
+
+.box4 {
+  background-image: linear-gradient(to bottom, red, blue);
+}
+
+.box3 {
+  background-image: linear-gradient(to right, red, blue);
+}
+
+.box1 {
+  background-image: linear-gradient(to top, red, blue);
+} */
+
+/* Còn 4 giá trị nữa: trên trái, trên phải, dưới trái và dưới phải */
+
+/* Ngoài ra nếu ta đặt thêm giá trị % ngay sao vị trí: sẽ cho biết giá trị mà không chuyển sắc */

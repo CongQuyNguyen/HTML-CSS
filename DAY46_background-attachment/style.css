@@ -1,0 +1,25 @@
+.box {
+    height: 300px;
+    background-image: url(../DAY44_background-image/img/op.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Ảnh tự di theo */
+    background-attachment: scroll;
+
+    /* Ảnh đứng yên khi cuốn */
+    /* background-attachment: fixed; */
+
+}
+
+.box-local {
+    color: white;
+    height: 200px;
+    width: 50%;
+    text-overflow: scroll;
+    background-image: url(../DAY44_background-image/img/op.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Ảnh ở trong local sẽ cuốn theo nội dung */
+    background-attachment: local;
+}
