@@ -1,0 +1,24 @@
+h1 {
+    width: 200px;
+    background-color: hotpink;
+
+    /* Đưa về 1 dòng */
+    white-space: nowrap;
+
+    /* Ẩn nội dung thừa */
+    overflow: hidden;
+
+    /* Cho ng dùng biết vẫn còn từ đằng sau bằng dấu ... */
+    text-overflow: ellipsis;
+}
+
+/* Giả sử ta muốn làm dấu 3 chấm ở dòng thứ hai hoặc khác */
+h2 {
+    background-color: aqua;
+
+    /* Làm dấu 3 chấm */
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}

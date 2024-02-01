@@ -1,0 +1,31 @@
+.box {
+  width: 500px;
+  height: 200px;
+  background-color: hotpink;
+
+  overflow: scroll;
+
+  /* Không gây ảnh hưởng khi có thanh lồng nhau */
+  overscroll-behavior: contain;
+}
+
+/* width */
+.box::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track: khe cuốn */
+.box::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle: thanh cuốn */
+.box::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background: seagreen;
+}
+
+/* Handle on hover: hành xử khi di chuột vào thanh cuốn */
+.box::-webkit-scrollbar-thumb:hover {
+  background: tomato;
+}

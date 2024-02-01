@@ -1,0 +1,21 @@
+li {
+  list-style-type: none;
+}
+
+li:not(first-child) {
+  margin-top: 5px;
+}
+
+.fa-brands,
+.fa-solid {
+  margin-right: 10px;
+  color: seagreen;
+}
+
+.fa-facebook {
+  color: blue;
+}
+
+.fa-youtube {
+  color: red;
+}
