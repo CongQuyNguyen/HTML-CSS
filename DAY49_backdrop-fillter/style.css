@@ -1,0 +1,20 @@
+body {
+  background: url(../DAY44_background-image/img/op.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box {
+  height: 200px;
+  margin-top: 40px;
+  background-color: #fff;
+}
+
+@supports (backdrop-filter: blur(5px) contrast(50%)) or
+  (-webkit-backdrop-filter: blur(5px) contrast(50%)) {
+  .box {
+    /* Nên sử dụng prefix cho backdrop-filler */
+    backdrop-filter: blur(5px) contrast(50%);
+    -webkit-backdrop-filter: blur(5px) contrast(50%);
+  }
+}

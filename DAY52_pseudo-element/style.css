@@ -1,0 +1,37 @@
+.box {
+
+}
+
+/* Lấy ra dòng đầu tiên của thẻ p: chỉ tác dụng với thẻ block hoặc inline-block */
+p::first-line {
+    color: hotpink;
+}
+
+/* Tác động lên chữ cái đầu tiên của tất cả các thẻ p */
+p::first-letter {
+    color: seagreen;
+    font-size: larger;
+}
+
+/* Chọn ra các vùng bôi đen */
+p::selection {
+    background: tomato;
+    color: #fff;
+}
+
+/* Chọn các điểm đánh dấu của thẻ li */
+li::marker {
+    color: seagreen;
+}
+
+/* Thêm một phần tử vào trước */
+.box::before {
+    content: "Phần nội dung được thêm vào đằng trước class box";
+    color: seagreen;
+}
+
+/* Thêm một phần tử vào sau */
+.box::after {
+    content: "Phần nội dung được thêm vào đằng sau class box";
+    color: hotpink;
+}

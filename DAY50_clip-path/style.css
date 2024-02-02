@@ -1,0 +1,19 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background: url(bg/ava.png) center / cover no-repeat;
+    
+    /* Sử dụng để cắt thành hình tròn */
+    
+    /* clip-path: circle(); */
+    /* clip-path: circle(50px); */
+
+    /* 50% lấy từ max (w, h) */
+    /* clip-path: circle(50%); */
+
+    /* Cắt hình chữ nhật: đối số truyền vào tương tự như box model */
+    /* clip-path: inset(20px 20px); */
+    clip-path: inset(20px round 15px);
+    /* clip-path: inset(20px round 15px 15px); */
+    /* clip-path: inset(20px round 15px 20px 25px 50px); */
+}
