@@ -1,0 +1,23 @@
+.noice {
+  margin: 10rem;
+  font-size: 10rem;
+  color: violet;
+  /* Căn giữa khối nội dung */
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+.mess {
+  font-size: 3rem;
+  color: white;
+  background-color: red;
+  border-radius: 20px;
+
+  position: absolute;
+  top: -20px;
+  right: 40px;
+}

@@ -1,0 +1,57 @@
+/* Thẻ cha đặt position = relative thì thuộc tính absolute của thẻ con sẽ kể thừa vị trí so với thẻ cha này */
+.content {
+  background-color: steelblue !important;
+  position: relative;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  color: white;
+
+  /* Căn giữa các khối */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1 {
+  background-color: hotpink;
+
+  /* relative: cách vị trí ban đầu một khoảng x (chỗ trống vẫn bị chiếm chỗ) */
+  position: relative;
+  left: 100px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.box2 {
+  background-color: seagreen;
+
+  /* 
+    absolute sẽ dựa vào tổ tiên mang relative
+    -> Nếu tổ tiên có relative thì vị trí (top, left, right, bottom) sẽ được quy định theo vị trí tổ tiên đó
+    -> Nếu không có tổ tiên nào mang relative thì sẽ chiếu theo body    
+    Và nếu ta chưa đặt các thuộc tính top left right bottom thì chúng sẽ mang giá trị auto
+    và mặc định ở vị trí góc trên bên trái của phần tử cha
+    */
+
+  /* Nó sẽ nằm ở mặt phẳng phía trên */
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.box3 {
+  background-color: springgreen;
+
+  /* fixed: Sẽ chiếu theo vị trí của khung nhìn và sẽ không di chuyển nếu như ta scroll trang web */
+  position: fixed;
+  top: 8px;
+  right: 8px;
+}
+
+h1 {
+  background-color: purple;
+}

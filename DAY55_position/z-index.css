@@ -1,0 +1,41 @@
+/* z-index thể hiện độ ưu tiên về thứ tự trên dưới của các box (số càng lớn sẽ càng được ưu tiên trước) */
+/* Sử dụng cho phần tử có cùng kiểu vị trí */
+/* Giá trị mặc định là 0 */
+
+.content {
+    position: relative;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    color: white;
+
+    /* Căn text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    background-color: seagreen;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    /* z-index: 1; */
+}
+
+.box2 {
+    background-color: hotpink;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    /* z-index: 1; */
+}
+
+.box3 {
+    background-color: steelblue;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}

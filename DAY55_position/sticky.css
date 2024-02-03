@@ -1,0 +1,14 @@
+/* sticky sẽ dính theo class cha */
+
+h2 {
+    background-color: hotpink;
+    position: sticky;
+    top: 0px;
+}
+
+.content {
+    width: 400px;
+    height: 500px;
+    background-color: seagreen;
+    overflow: auto;
+}
