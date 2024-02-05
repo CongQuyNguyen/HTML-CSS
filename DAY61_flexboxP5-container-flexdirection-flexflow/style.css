@@ -1,0 +1,27 @@
+/* flex-direction: Đổi hướng của trục main (trục ngang) */
+body {
+    background-color: seagreen;
+}
+
+.container {
+    height: 400px;
+    display: flex;
+    background-color: steelblue;
+    /* row: (mặc định) main-start bên trái còn main-end bên phải */
+    
+    /* row-reverse: main-start bên phải, main-end bên trái */
+    flex-direction: row-reverse;
+
+    /* columns: trục main xoay vào vị trí của cross (đứng), cross xoay vào vị trí của main(ngang) */
+    flex-direction: column;
+
+    /* columns-reverse: trục main vẫn là trục đứng nhưng đổi chiều (thành từ dưới lên-mặc định là trên xuống) */
+    flex-direction: column-reverse;
+}
+
+.box {
+    background-color: hotpink;
+    border: 1px solid #fff;
+}
+
+/* flex-flow: viết gộp của flex-wrap và flex-direction */

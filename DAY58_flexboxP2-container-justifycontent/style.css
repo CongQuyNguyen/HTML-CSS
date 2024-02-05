@@ -1,0 +1,39 @@
+/* flex-container: nhóm các thuộc tính ta sẽ code trực tiếp trong class CHA */
+
+/* 1. justify-content: định vị các phần tử theo trục nằm ngang */
+.container {
+  font-size: 1.5rem;
+  display: flex;
+  background-color: #a0a0a0;
+
+  /* Mặc định start: Bắt đầu tại bên start main */
+  justify-content: start;
+  /* end: Dồn về main end */
+  justify-content: end;
+  /* center: Dồn về giữa */
+  justify-content: center;
+  /* space-around: Khoảng trống 2 bên của các phần tử là như nhau */
+  justify-content: space-around;
+  /* space-evenly: Tạo ra các khoảng cách bằng nhau */
+  justify-content: space-evenly;
+  /* space-between: Dồn ra sát lề và căn khoảng cách */
+  justify-content: space-between;
+}
+
+/* 2. align-items: định vị các phần tử theo trục thắng đứng */
+
+.box1 {
+  background-color: seagreen;
+}
+
+.box2 {
+  background-color: slateblue;
+}
+
+.box3 {
+  background-color: hotpink;
+}
+
+.box4 {
+  background-color: steelblue;
+}

@@ -1,0 +1,36 @@
+/* Các phần tử thuộc nhóm item chỉ tác động cho từng item riêng lẽ */
+
+
+.container {
+    height: 200px;
+    display: flex;
+    background-color: cyan;
+    /* flex-wrap: wrap; */
+
+    /* Tạo ra thành cuốn cho box con */
+    overflow: auto;
+    flex-direction: column;
+
+}
+
+/* flex-shrink: xác định giá trị co lại của phần tử khi có xảy ra sự tràn dữ liệu ra khỏi box */
+.box {
+    background-color: blue;
+    border: 1px solid black;
+    /* width: 30%; */
+
+    /* Đảm bảo mỗi phần tử đều là 30% độ rộng của container */
+    flex-shrink: 0;
+
+
+    /* flex-basic */
+    flex-basis: 30%;
+}
+
+/* Chỉ có  box1 là không bị co lại, các box khác vẫn bình thường */
+/* .box1 {
+    flex-shrink: 0;
+} */
+
+/* flex-basic: dùng để xét main size item (main size ăn theo trục main) */
+/* Nghĩa là khi thực hiện xoay trục (flex-director thì nó sẽ tùy biến theo trục main mà thay đổi) */

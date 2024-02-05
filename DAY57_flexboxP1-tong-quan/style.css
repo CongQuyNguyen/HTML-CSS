@@ -1,0 +1,14 @@
+.box {
+  font-size: 1.5rem;
+  background-color: steelblue;
+}
+
+.container {
+  /* inline-flex sẽ chỉ ôm tới phần nội dung */
+  display: inline-flex;
+
+  /* display: flex; */
+  background-color: seagreen;
+  /* Cách nhau giữa các box */
+  gap: 40px;
+}

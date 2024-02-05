@@ -1,0 +1,43 @@
+/* flex: Cú pháp viết tắt của flex-grow + flex-shrink + flex-basic */
+
+/* Kích thước của item có sự ưu tiên như sau */
+/* min-max width -> flex-basic -> width -> content width */
+
+.container {
+    display: flex;
+}
+
+
+.box {
+    /* max-min width có độ ưu tiên cao nhất */
+    /* max-width: 80px; */
+
+    /* Ưu tiên cho flex-basic hơn width */
+    flex-basis: 150px;
+
+    /* Ưu tiên cho width hơn content width */
+    width: 100px;
+
+
+    flex: 0 1 100px;
+    flex: 1 1 100px;
+}
+
+/* order: thể hiện thứ tự hiển thị trên trình duyệt của phần tử */
+
+.box1 {
+    background-color: cyan;
+}
+
+.box2 {
+    background-color: red;
+}
+
+.box3 {
+    background-color: blue;
+}
+
+.box4 {
+    background-color: green;
+}
+

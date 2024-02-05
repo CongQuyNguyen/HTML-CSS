@@ -1,0 +1,12 @@
+.pic {
+  width: 200px;
+  height: auto;
+
+  /* Đưa ảnh về bên trái của layout */
+  float: right;
+}
+
+/* Để tránh việc chèn chữ không mong muốn, ta dùng cái dưới */
+.clear {
+  clear: right;
+}
